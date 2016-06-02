@@ -43,7 +43,12 @@
   })
   
   $(document).on( "keydown", function(e){
-    $('ul.sounds li a[data-key=' + e.key.toLowerCase() +']').trigger('click')
+    var code = (e.keyCode ? e.keyCode : e.which);
+    
+    if(code <= 90 && code >= 65){
+      var letter = String.fromCharCode(32 + code)      
+      $('ul.sounds li a[data-key=' + letter +']').trigger('click')
+    }
   })
   
   $(function(){
