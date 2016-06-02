@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+  <ul class="sounds">
+    {% for s in site.data.sounds %}
+    <li>
+      <a href="#" data-sound="{{s.sound}}" data-key="{{s.key}}">
+        {{ s.name }}
+        <span class="letter">{{s.key}}</span>
+      </a>
+    </li>
+      
+    {% endfor %}
+  </ul>
+</div>

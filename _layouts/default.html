@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>La boite a valraiso</title>
+  <meta name="description" content="La boite a valraiso :)">
+  
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+</head>
+
+
+<body>
+  
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">La boite a valraiso</a>
+    </div>
+  </header>
+  
+  <div class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://code.createjs.com/soundjs-0.6.1.min.js"></script>
+  <script>
+  
+  $(document).on( 'click', 'ul.sounds li a', function(e){
+    createjs.Sound.stop();
+    $('ul.sounds li a.playing').removeClass('playing')
+    createjs.Sound.play('sound-' + $(this).attr('data-key')).addEventListener("complete", function (instance) {
+      $('ul.sounds li a.playing').removeClass('playing')
+    });
+    $(this).addClass('playing')
+  })
+  
+  $(document).on( "keydown", function(e){
+    $('ul.sounds li a[data-key=' + e.key.toLowerCase() +']').trigger('click')
+  })
+  
+  $(function(){
+    createjs.Sound.alternateExtensions = ["mp3"];
+    $('ul.sounds li a').each(function(idx, el){
+      var $self = $(el);
+      createjs.Sound.registerSound("mp3/" + $self.attr('data-sound'), "sound-"+$self.attr('data-key'));
+    })
+  })
+  </script>
+</body>
+
+</html>
