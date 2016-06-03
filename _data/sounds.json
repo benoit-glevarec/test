@@ -3,4 +3,5 @@
   ,{'name': 'Tu prends ton manteau !', 'sound': 'tu-prends-ton-manteau.mp3', 'key': 'm'}
   ,{'name': 'Ok', 'sound': 'ok.mp3', 'key': 'k'}
   ,{'name': 'Pas la', 'sound': 'pas-la.mp3', 'key': 'a'}
+  ,{'name': 'Avec un T', 'sound': 'avec-un-t.mp3', 'key': 't'}
 ]
