@@ -4,4 +4,5 @@
   ,{'name': 'Ok', 'sound': 'ok.mp3', 'key': 'k'}
   ,{'name': 'Pas la', 'sound': 'pas-la.mp3', 'key': 'a'}
   ,{'name': 'Avec un T', 'sound': 'avec-un-t.mp3', 'key': 't'}
+  ,{'name': 'Tatan, elle fait des flans', 'sound': 'tatan-elle-fait-des-flans.mp3', 'key': 'f'}
 ]
