@@ -8,6 +8,6 @@
   ,{'name': 'Je, je, suis libertine, euh', 'sound': 'kti-ktin.mp3', 'key':'k'}
   ,{'name': 'Ennnsuite', 'sound': 'ensuite.mp3', 'key':'e'}
   ,{'name': 'Week end', 'sound': 'week-end.mp3', 'key':'w'}
-  ,{'name': 'Cuillere 1', 'sound': 'cuillere.mp3', 'key':'c'}
+  ,{'name': 'Cuillere', 'sound': 'cuillere.mp3', 'key':'c'}
   ,{'name': 'Interprète', 'sound': 'interprete.mp3', 'key':'i'}
 ]
