@@ -1,8 +1,9 @@
 [
   {'name': 'Au champs élysées', 'sound': 'champs-elysees.mp3', 'key': 'z'}
   ,{'name': 'Tu prends ton manteau !', 'sound': 'tu-prends-ton-manteau.mp3', 'key': 'm'}
-  ,{'name': 'Ok', 'sound': 'ok.mp3', 'key': 'k'}
+  ,{'name': 'Ok', 'sound': 'ok.mp3', 'key': 'o'}
   ,{'name': 'Pas la', 'sound': 'pas-la.mp3', 'key': 'a'}
   ,{'name': 'Avec un T', 'sound': 'avec-un-t.mp3', 'key': 't'}
   ,{'name': 'Tatan, elle fait des flans', 'sound': 'tatan-elle-fait-des-flans.mp3', 'key': 'f'}
+  ,{'name': 'Je, je, suis libertine, euh', 'sound': 'kti-ktin.mp3', key:'k'}
 ]
