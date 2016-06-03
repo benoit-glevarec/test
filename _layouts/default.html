@@ -46,17 +46,35 @@
     var code = (e.keyCode ? e.keyCode : e.which);
     
     if(code <= 90 && code >= 65){
-      var letter = String.fromCharCode(32 + code)      
+      var letter = String.fromCharCode(32 + code)
       $('ul.sounds li a[data-key=' + letter +']').trigger('click')
     }
   })
   
   $(function(){
     createjs.Sound.alternateExtensions = ["mp3"];
+    
     $('ul.sounds li a').each(function(idx, el){
       var $self = $(el);
       createjs.Sound.registerSound("mp3/" + $self.attr('data-sound'), "sound-"+$self.attr('data-key'));
     })
+    
+    var search = window.location.search || '?'
+    var play = decodeURIComponent(search.substring(1))
+    if('' !== play){
+        var items = $('ul.sounds li a:contains(' + play + ')')
+        if(items.length === 1){
+          var item = $(items[0])
+          createjs.Sound.on("fileload", function(event){
+            if(event.id === 'sound-' + item.attr('data-key')){
+              item.trigger('click')
+            }
+          });
+        }
+    }
+    
+    
+    
   })
   </script>
 </body>

@@ -2,4 +2,5 @@
   {'name': 'Au champs élysées', 'sound': 'champs-elysees.mp3', 'key': 'z'}
   ,{'name': 'Tu prends ton manteau !', 'sound': 'tu-prends-ton-manteau.mp3', 'key': 'm'}
   ,{'name': 'Ok', 'sound': 'ok.mp3', 'key': 'k'}
+  ,{'name': 'Pas la', 'sound': 'pas-la.mp3', 'key': 'a'}
 ]
