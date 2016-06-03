@@ -7,4 +7,5 @@
   ,{'name': 'Tatan, elle fait des flans', 'sound': 'tatan-elle-fait-des-flans.mp3', 'key': 'f'}
   ,{'name': 'Je, je, suis libertine, euh', 'sound': 'kti-ktin.mp3', 'key':'k'}
   ,{'name': 'Ennnsuite', 'sound': 'ensuite.mp3', 'key':'e'}
+  ,{'name': 'Week end', 'sound': 'week-end.mp3', 'key':'w'}
 ]
