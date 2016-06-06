@@ -10,4 +10,5 @@
   ,{'name': 'Week end', 'sound': 'week-end.mp3', 'key':'w'}
   ,{'name': 'Cuillere', 'sound': 'cuillere.mp3', 'key':'c'}
   ,{'name': 'Interprète', 'sound': 'interprete.mp3', 'key':'i'}
+  ,{'name': 'Tu peux pas test', 'sound': 'tu-peux-pas-test.mp3', 'key':'s'}
 ]
