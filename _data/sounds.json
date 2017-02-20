@@ -12,4 +12,5 @@
   ,{'name': 'Interprète', 'sound': 'interprete.mp3', 'key':'i'}
   ,{'name': 'Tu peux pas test', 'sound': 'tu-peux-pas-test.mp3', 'key':'s'}
   ,{'name': 'Putain ils réfléchissent pas', 'sound': 'noir.mp3', 'key':'n'}
+  ,{'name': 'Cendrillon ...', 'sound': 'bal_masque.mp3', 'key':'b'}
 ]
