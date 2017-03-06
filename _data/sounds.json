@@ -13,5 +13,5 @@
   ,{'name': 'Tu peux pas test', 'sound': 'tu-peux-pas-test.mp3', 'key':'s'}
   ,{'name': 'Putain ils réfléchissent pas', 'sound': 'noir.mp3', 'key':'n'}
   ,{'name': 'Cendrillon ...', 'sound': 'bal_masque.mp3', 'key':'b'}
-  ,{'name': 'On s'en bat les couilles', 'sound': 'on-sen-bat-les-couilles.mp3', 'key':'c'}
+  ,{'name': 'On s\'en bat les couilles', 'sound': 'on-sen-bat-les-couilles.mp3', 'key':'c'}
 ]
